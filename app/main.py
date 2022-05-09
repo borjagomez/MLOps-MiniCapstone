@@ -43,16 +43,11 @@ async def create_upload_file(file: UploadFile = File(...)):
 
     img = image.load_img(completeName, target_size=(32, 32))
     imageArray = image.img_to_array(img)
-    print(imageArray.shape)
     imageArray = np.expand_dims(imageArray, axis=0)
-    print(imageArray.shape)
     imageArray = preprocess_input(imageArray)
-    print(imageArray.shape)
+    imageArray = imageArray * 1.0 / 255
 
     predictions = model.predict(imageArray)
-    print(completeName)
-    print(predictions)
-
     result = _FINE_LABEL_NAMES[np.argmax(predictions, axis=1)[0]]
 
     return {"prediction": result}
