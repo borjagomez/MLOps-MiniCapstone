@@ -6,7 +6,7 @@ Barcelona, May 2022
 ## Project description
 
 This is the Mini-Capstone assigment for the cohort #3 of the MLOps program.
-### How to use this service
+## How to use this service
 
 All the commends are implemented using Makefile. Here you have the list of available commands:
 
@@ -16,9 +16,7 @@ All the commends are implemented using Makefile. Here you have the list of avail
 make build
 ```
 
-* Run the container associated to the image. The web server is running so every change at any file it will be refreshed.
-
-Don't run locally. Run via de Docker container!
+* Run the container associated to the image. The web server is running so every change at any file it will be refreshed. Don't run locally. Run via de Docker container!
 
 ```
 make run
@@ -61,6 +59,10 @@ make create-infrastructure
 ```
 
  This project is based on the following references: 
+
+
+
+
 
 * Resnet Image Classification Webapp (Abhishek Nagaraja - https://github.com/anagar20/Resnet-Image-Classification-Flask-App).
 * CIFAR 100 transfer learning with ResNet50: https://www.kaggle.com/code/saileshnair/cifar-100-transfer-learning-resnet50/notebook
