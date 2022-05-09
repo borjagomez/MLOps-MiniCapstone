@@ -8,6 +8,8 @@ Barcelona, May 2022
 This is the Mini-Capstone assigment for the cohort #3 of the MLOps program.
 ## How to use this service
 
+* Access to production: http://34.139.170.162/
+
 All the commends are implemented using Makefile. Here you have the list of available commands:
 
 * Build the image. Do this any time you commit code or add a new library:
