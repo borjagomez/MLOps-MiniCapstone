@@ -60,9 +60,7 @@ make create-infrastructure
 
  This project is based on the following references: 
 
-
-
-
+## References
 
 * Resnet Image Classification Webapp (Abhishek Nagaraja - https://github.com/anagar20/Resnet-Image-Classification-Flask-App).
 * CIFAR 100 transfer learning with ResNet50: https://www.kaggle.com/code/saileshnair/cifar-100-transfer-learning-resnet50/notebook
