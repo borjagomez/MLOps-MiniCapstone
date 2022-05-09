@@ -1,5 +1,6 @@
 
 build:
+	pip freeze > requirements.txt
 	docker build . -t borjagomez/minicapstone
 
 run:
